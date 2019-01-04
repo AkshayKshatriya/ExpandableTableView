@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		BA22A32521DDF41D00C2841B /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA22A32421DDF41D00C2841B /* SwitchCell.xib */; };
 		BA22A32721DDF70B00C2841B /* ValuePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA22A32621DDF70B00C2841B /* ValuePickerCell.xib */; };
-		BA22A32921DDF77B00C2841B /* idCellValuePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA22A32821DDF77B00C2841B /* idCellValuePicker.xib */; };
+		BA22A32921DDF77B00C2841B /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA22A32821DDF77B00C2841B /* SliderCell.xib */; };
 		BA262C7721DE335200B866FD /* CellDescriptor.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA262C7621DE335200B866FD /* CellDescriptor.plist */; };
 		BA98C0F621DDDA5D00E00B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98C0F521DDDA5D00E00B39 /* AppDelegate.swift */; };
 		BA98C0F821DDDA5D00E00B39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98C0F721DDDA5D00E00B39 /* ViewController.swift */; };
@@ -44,7 +44,7 @@
 /* Begin PBXFileReference section */
 		BA22A32421DDF41D00C2841B /* SwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
 		BA22A32621DDF70B00C2841B /* ValuePickerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ValuePickerCell.xib; sourceTree = "<group>"; };
-		BA22A32821DDF77B00C2841B /* idCellValuePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = idCellValuePicker.xib; sourceTree = "<group>"; };
+		BA22A32821DDF77B00C2841B /* SliderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
 		BA262C7621DE335200B866FD /* CellDescriptor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDescriptor.plist; sourceTree = "<group>"; };
 		BA98C0F221DDDA5D00E00B39 /* ExpandableTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA98C0F521DDDA5D00E00B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 				BAC821F121DDE86600E7C6A3 /* DatePickerCell.xib */,
 				BA22A32421DDF41D00C2841B /* SwitchCell.xib */,
 				BA22A32621DDF70B00C2841B /* ValuePickerCell.xib */,
-				BA22A32821DDF77B00C2841B /* idCellValuePicker.xib */,
+				BA22A32821DDF77B00C2841B /* SliderCell.xib */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 				BA98C0FD21DDDA5D00E00B39 /* Assets.xcassets in Resources */,
 				BA22A32521DDF41D00C2841B /* SwitchCell.xib in Resources */,
 				BA98C0FB21DDDA5D00E00B39 /* Main.storyboard in Resources */,
-				BA22A32921DDF77B00C2841B /* idCellValuePicker.xib in Resources */,
+				BA22A32921DDF77B00C2841B /* SliderCell.xib in Resources */,
 				BA22A32721DDF70B00C2841B /* ValuePickerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
